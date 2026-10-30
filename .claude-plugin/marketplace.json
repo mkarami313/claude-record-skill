@@ -1,0 +1,21 @@
+{
+  "name": "claude-record-skill",
+  "owner": {
+    "name": "mkarami313"
+  },
+  "metadata": {
+    "description": "Record a workflow like a macro and turn the Claude Code session transcript (steps that worked, fixes, user corrections) into a tested, reusable SKILL.md.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "record-skill",
+      "description": "Record a workflow like a macro and turn the Claude Code session transcript (steps that worked, fixes, user corrections) into a tested, reusable SKILL.md.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/record-skill"
+      ]
+    }
+  ]
+}
